@@ -164,3 +164,26 @@ label:hover {
   font-family: "Russo One", sans-serif !important;
   font-size: 3rem !important;
 }
+
+@media (max-width: 765px) {
+  .firegram {
+    text-align: center;
+  }
+
+  .profile-picture-user {
+    width: 30%;
+    border-radius: 150px;
+  }
+
+  .user-info {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .user-info h1 {
+    font-size: 1rem;
+  }
+  .states span {
+    font-size: 0.6rem;
+  }
+}
