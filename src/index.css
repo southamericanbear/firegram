@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
 :root {
   --primary: #efb6b2;
   --secondary: #4e4e4e;
@@ -111,4 +115,52 @@ label:hover {
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
+}
+
+.user-info-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: rgba(201, 201, 201, 0.637) solid 1px;
+}
+
+.profile-picture-user {
+  width: 20%;
+  border-radius: 100px;
+}
+
+.user-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info h1 {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 1.8rem;
+  color: rgba(104, 104, 104, 0.719);
+}
+
+.account-stats {
+  display: flex;
+}
+
+.states {
+  display: flex;
+  margin-right: 15px;
+}
+
+.states span {
+  font-family: "Open Sans", sans-serif;
+}
+
+.states span:first-child {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.firegram {
+  font-family: "Russo One", sans-serif !important;
+  font-size: 3rem !important;
 }
